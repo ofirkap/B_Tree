@@ -1,9 +1,5 @@
 # Data Structures 2020 Assignment 4
 
-Publish date: 17 /0 5 /
-
-Due date: 7 /0 6 /
-
 Senior faculty referent: Dr. Sebastian Ben-Daniel
 
 Junior faculty referents: Maor Zafry, Amihay Elboher
@@ -179,13 +175,6 @@ Search:
 
 Similar to deletion but without the deletion itself: check in the array. Found? Great, otherwise check
 the stash. Found? Good, else the element is not in the table.
-
-### Note about time complexity
-
-Though the complexity issue is out of our objectives in this assignment, you can see that the search
-and deletion are executed in 푂(푑) time in the **worst case**! 푑 is in 푂( 1 ), of course, so 푂(푑)=푂( 1 ).
-The insertion complexity may be executed in 푂(푛), but on average it takes 푂( 1 ) too.
-
 
 ## Implement backtracking for cuckoo hash table
 
